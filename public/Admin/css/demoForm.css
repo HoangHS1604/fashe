@@ -1,0 +1,21 @@
+#demoform .form-control .demolabel{
+    font-weight: bold
+}
+#demoform{
+    border: 2px solid black;
+    width: 350px;
+}
+#demoform input[type="text"],input[type="datetime-local"],select[id="pickup"]{
+    width: 100%
+}
+#demoform .form-control{
+    margin-left: 5px;
+    margin-right: 10px;
+}
+p#d{
+    color: red;
+}
+#d{
+    color: blue;
+}
+div#d+p{color: red;}

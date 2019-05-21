@@ -1,0 +1,48 @@
+body{
+    /* .. là từ folder css ra khỏi folder rồi từ đó vào folder images */
+    /* background: url("../images/demopic.jpg");
+    background-repeat: no-repeat; */
+}
+.line{
+    display: grid;
+    width: 350px;
+    height: 40px;
+    grid-template-columns: 20% 79%;
+    grid-column-gap: 1%;
+}
+.line div{
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    color: coral;
+}
+
+.line div span{
+    padding:3px 5px;
+    background-color: purple;
+    color: white;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: all 300ms linear;
+    
+}
+.line div span:hover{
+    padding:3px 5px;
+    background-color: tomato;
+    color: white;
+    
+}
+#kqFor{
+    width: 1264px;
+}
+#kqFor div{
+    width: "200px";
+    height: "200px";
+    float: left;
+    margin: "5px"
+}
+#kqsl{
+    width: "200px";
+    height: "200px";
+    border: 2px solid black;
+}

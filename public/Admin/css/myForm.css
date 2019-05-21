@@ -1,0 +1,27 @@
+#formLogin{
+    width: 350px;
+    min-height: 250px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 3px;
+}
+#formLogin .form-control{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 40px;
+    padding-left: 3px;
+}
+#formLogin .form-control:first-child{
+    
+}
+#formLogin .form-control div:nth-child(1){
+    width: 100px;
+    float: left;
+}
+#formLogin .form-control div:nth-child(2){
+    width: 145px;
+    float: left;
+}

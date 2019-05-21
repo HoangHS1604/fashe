@@ -1,0 +1,13 @@
+
+.title{
+    display:grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-column-gap: 1%;
+    grid-row-gap: 3px;
+    border:1px solid #6a6b69;
+}
+/* chi dong dau tien trong content co chu bold */
+#demo .title:first-child{
+    font-weight: bold; 
+    background-color: #3a972a;
+}

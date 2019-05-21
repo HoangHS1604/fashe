@@ -1,0 +1,48 @@
+#main {
+    width: 1024px;
+    min-height: 600px;
+}
+#header{
+    height: 70px;
+
+}
+#leftcontent{
+    height: 400px;
+}
+#rightcontent{
+    height: 400px;
+}
+#footer{
+    height: 70px;
+
+}
+@media (min-width: 576px) {
+    #main {
+        width: 100%;
+        min-height: 600px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    #main {
+        width: 100%;
+        min-height: 600px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    #main {
+        width: 1024px;
+        min-height: 600px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    #main {
+        width: 100%;
+        min-height: 600px;
+    }
+}

@@ -1,0 +1,32 @@
+
+
+
+.line{
+    display: grid;
+    width: 350px;
+    height: 40px;
+    grid-template-columns: 20% 79%;
+    grid-column-gap: 1%;
+}
+.line div{
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    color: coral;
+}
+
+.line div span{
+    padding:3px 5px;
+    background-color: purple;
+    color: white;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: all 300ms linear;
+    
+}
+.line div span:hover{
+    padding:3px 5px;
+    background-color: tomato;
+    color: white;
+    
+}
