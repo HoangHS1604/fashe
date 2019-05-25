@@ -8,7 +8,7 @@
               <div class="box-body">
                 <div class="form-group">
                   <label for="exampleInputEmail1">Name</label>
-                  <input type="text" class="form-control" id="txtName" placeholder="Enter Naseme of prfgffhassfdffghoduct" name="txtName">
+                  <input type="text" class="form-control" id="txtName" placeholder="Enffter Naseme of prfgffhassfdffghoduct" name="txtName">
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">Price</label>
